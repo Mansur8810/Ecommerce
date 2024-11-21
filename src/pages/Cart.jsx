@@ -29,7 +29,7 @@ const Cart = () => {
 
       {cartData.length === 0 ? (
         <center>
-          <img src="/illustrations/empty.svg" alt="empty-cart" className="object-contain size-2/3" />
+          <img src="/illustrations/empty.svg" alt="empty-cart" className="object-contain size-1/3" />
         <p>Your cart is empty</p>
         <a href="/" className="btn btn-link text-primary capitalize"> Start shopping from here!!!</a>
         </center>

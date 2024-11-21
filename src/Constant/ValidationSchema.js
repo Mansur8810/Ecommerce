@@ -13,7 +13,7 @@ export const LoginSchema = z.object({
 export const ContactSchema = z.object({
   name: z.string().min(2, "Need Min. 2 Characters"),
   email: z.string().email(),
-  number: z.string().min(10, "Phone number length must be min. 10"),
+  number: z.string().min(10, "Phone number  must be min. 10"),
   textarea: z.string().min(10, "Need Min. 10 Characters"),
 });
 

@@ -11,7 +11,7 @@ const ServiceCard = ({ iconSrc, title, description }) => {
         />
       </figure>
       <article className="text-center">
-        <h1 className="font-poppins text-lg font-bold leading-7 sm:text-xl lg:text-2xl">{title}</h1>
+        <h1 className="font-poppins text-md font-bold leading-7 sm:text-xl lg:text-md">{title}</h1>
         <p className="font-poppins text-sm sm:text-base lg:text-lg text-gray-600">{description}</p>
       </article>
     </div>

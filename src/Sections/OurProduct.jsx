@@ -27,7 +27,7 @@ const OurProduct = () => {
         <Button
           text="View All Products"
           variant="default"
-          className="py-3 px-6 text-sm"
+          className=" btn py-3 px-6  text-sm"
         />
       </div>
     </section>

@@ -90,8 +90,7 @@ const Products = () => {
         <Button
           text="View All Products"
           variant="default"
-          className="py-3 px-6 my-5 text-sm"
-          onClick={() => window.location.href = '/products'}  // Add redirection
+          className=" btn py-3 px-6 my-5 text-sm"
         />
       </div>
 
